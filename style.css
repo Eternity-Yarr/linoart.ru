@@ -10,58 +10,75 @@ img {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
-
+.visible-300 {
+    visibility: visible;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.hidden-300 {
+    visibility: hidden;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
 .main {
-    width: 560px;
-    height: 960px;
+    width: 300px;
+    height: 1108px;
 }
 .briefcase {
-    top: 132px;
-    left: 65px;
+    position: absolute;
+    display: block;
+    top: 145px;
+    left: 13px;
+    background-image: url(/img/briefcase-300.png);
+    height:96px; 
+    width:272px;
 }
 .arrow {
     top: 27px;
     left: 23px;
 }
 .mini-briefcase-1 {
-    top: 35px;
-    left: 275px;
+    top: 10px;
+    left: 174px;
 }
 .mini-briefcase-2 {
-    top: 73px;
-    left: 414px;
+    display: none;   
 }
 .mini-briefcase-3 {
-    top: 309px;
-    left: 231px;
+    top: 931px;
+    left: 170px;
 }
 .mini-briefcase-4 {
-    top: 323px;
-    left: 358px;
+    top: 850px;
+    left: 212px;
     -webkit-transition: none;
     -moz-transition: none;
     -o-transition: none;
     transition: none;
 }
 .mini-logo {
-    top: 256px;
-    left: 452px;
+    top: 112px;
+    left: 40px;
 }
 .u-may-look {
-    top: 411px;
-    left: 308px;
+    top: 529px;
+    left: 52px;
 }
 .u-may-download {
-    top: 347px;
-    left: 53px;
+    top: 256px;
+    left: 62px;
 }
 .u-may-write {
-    top: 639px;
-    left: 327px;
+    top: 619px;
+    left: 88px;
 }
 .lino-portrait {
-    top: 618px;
-    left: 40px;
+    top: 682px;
+    left: 14px;
 }
 .email {
     top: 727px;
@@ -87,11 +104,122 @@ img {
     top: 560px;
     left: 235px;
 }
+.email-300 {
+    top: 669px;
+    left: 42px;
+}
+.skype-300 {
+    top: 669px;
+    left: 84px;
+}
+.instagram-300 {
+    top: 580px;
+    left: 43px;
+}
+.revision-300 {
+    top: 580px;
+    left: 87px;
+}
+.facebook-300 {
+    top: 580px;
+    left: 130px;
+}
+.vk-300 {
+    top: 580px;
+    left: 172px;
+}
 .logo {
-    top: 820px;
-    left: 233px;
+    top: 1025px;
+    left: 17px;
 }
 
+@media all and (min-width: 560px) {
+    .visible-300 {
+        visibility: hidden;
+    }
+    .hidden-300 {
+        visibility: visible;
+    }
+    .main {
+        width: 560px;
+        height: 960px;
+    }
+    .briefcase {
+        top: 132px;
+        left: 65px;
+        background-image: url(/img/briefcase.png);
+        height:151px; 
+        width:430px;
+    }
+    .mini-briefcase-1 {
+        top: 35px;
+        left: 275px;
+    }
+    .mini-briefcase-2 {
+        top: 73px;
+        left: 414px;
+    }
+    .mini-briefcase-3 {
+        top: 309px;
+        left: 231px;
+    }
+    .mini-briefcase-4 {
+        top: 323px;
+        left: 358px;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .mini-logo {
+        top: 256px;
+        left: 452px;
+    }
+    .u-may-look {
+        top: 411px;
+        left: 308px;
+    }
+    .u-may-download {
+        top: 347px;
+        left: 53px;
+    }
+    .u-may-write {
+        top: 639px;
+        left: 327px;
+    }
+    .lino-portrait {
+        top: 618px;
+        left: 40px;
+    }
+    .email {
+        top: 727px;
+        left: 261px;
+    }
+    .skype {
+        top: 761px;
+        left: 259px;
+    }
+    .instagram {
+        top: 460px;
+        left: 235px;
+    }
+    .revision {
+        top: 493px;
+        left: 235px;
+    }
+    .facebook {
+        top: 527px;
+        left: 235px;
+    }
+    .vk {
+        top: 560px;
+        left: 235px;
+    }
+    .logo {
+        top: 820px;
+        left: 233px;
+    }
+}
 @media all and (min-width: 960px) {
     .main {
         width: 960px;
