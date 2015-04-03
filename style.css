@@ -11,14 +11,14 @@ img {
     transition: 0.3s ease-in-out;
 }
 .visible-300 {
-    visibility: visible;
+    display: block;
     -webkit-transition: none;
     -moz-transition: none;
     -o-transition: none;
     transition: none;
 }
 .hidden-300 {
-    visibility: hidden;
+    display: none;
     -webkit-transition: none;
     -moz-transition: none;
     -o-transition: none;
@@ -135,10 +135,10 @@ img {
 
 @media all and (min-width: 560px) {
     .visible-300 {
-        visibility: hidden;
+        display: none;
     }
     .hidden-300 {
-        visibility: visible;
+        display: block;
     }
     .main {
         width: 560px;
