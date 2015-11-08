@@ -33,7 +33,7 @@ img {
     display: block;
     top: 145px;
     left: 13px;
-    background-image: url(/img/briefcase-300.png);
+    background-image: url(/svg/banner-300.svg);
     height:96px; 
     width:272px;
 }
@@ -147,7 +147,7 @@ img {
     .briefcase {
         top: 132px;
         left: 65px;
-        background-image: url(/img/briefcase.png);
+        background-image: url(/svg/banner.svg);
         height:151px; 
         width:430px;
     }
