@@ -10,14 +10,14 @@ img {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
-.visible-300 {
+.visible-300, .hidden-900 {
     display: block;
     -webkit-transition: none;
     -moz-transition: none;
     -o-transition: none;
     transition: none;
 }
-.hidden-300 {
+.hidden-300, .visible-900 {
     display: none;
     -webkit-transition: none;
     -moz-transition: none;
@@ -34,23 +34,37 @@ img {
     top: 145px;
     left: 13px;
     background-image: url(/svg/banner-300.svg);
-    height:96px; 
+    height:96px;
     width:272px;
 }
 .arrow {
     top: 27px;
     left: 23px;
 }
-.mini-briefcase-1 {
-    top: 10px;
-    left: 174px;
+.blog {
+}
+.blog-mini {
+  top: 890px;
+  left: 180px;
+}
+.my-briefcase {
+  top: 300px;
+  left: 60px;
 }
 .mini-briefcase-2 {
-    display: none;   
+    top: 5px;
+    left: 165px;
 }
 .mini-briefcase-3 {
-    top: 931px;
-    left: 170px;
+    /*display: none; */
+}
+.my-video {
+  top: 695px;
+  left: 35px;
+}
+.youtube-300 {
+  top: 768px;
+  left: 30px;
 }
 .mini-briefcase-4 {
     top: 850px;
@@ -134,6 +148,9 @@ img {
 }
 
 @media all and (min-width: 560px) {
+    .visible-900 {
+      display: none;
+    }
     .visible-300 {
         display: none;
     }
@@ -148,32 +165,32 @@ img {
         top: 132px;
         left: 65px;
         background-image: url(/svg/banner.svg);
-        height:151px; 
+        height:151px;
         width:430px;
     }
+    .blog-mini {
+      top: 315px;
+      left: 370px;
+    }
     .mini-briefcase-1 {
-        top: 35px;
-        left: 275px;
+        top: 30px;
+        left: 300px;
     }
     .mini-briefcase-2 {
-        top: 73px;
-        left: 414px;
+        top: 65px;
+        left: 415px;
     }
     .mini-briefcase-3 {
         top: 309px;
         left: 231px;
     }
-    .mini-briefcase-4 {
-        top: 323px;
-        left: 358px;
-        -webkit-transition: none;
-        -moz-transition: none;
-        -o-transition: none;
-        transition: none;
-    }
     .mini-logo {
         top: 256px;
         left: 452px;
+    }
+    .my-briefcase {
+      top: 390px;
+      left: 50px;
     }
     .u-may-look {
         top: 411px;
@@ -187,6 +204,10 @@ img {
         top: 639px;
         left: 327px;
     }
+    .my-video {
+      top: 765px;
+      left: 360px;
+    }
     .lino-portrait {
         top: 618px;
         left: 40px;
@@ -196,8 +217,12 @@ img {
         left: 261px;
     }
     .skype {
-        top: 761px;
-        left: 259px;
+        top: 765px;
+        left: 253px;
+    }
+    .youtube {
+        top: 799px;
+        left: 253px;
     }
     .instagram {
         top: 460px;
@@ -216,11 +241,17 @@ img {
         left: 235px;
     }
     .logo {
-        top: 820px;
+        top: 855px;
         left: 233px;
     }
 }
 @media all and (min-width: 960px) {
+    .visible-900 {
+      display: block;
+    }
+    .hidden-900 {
+      display: none;
+    }
     .main {
         width: 960px;
         height: 560px;
@@ -233,11 +264,11 @@ img {
         top: 36px;
         left: 83px;
     }
-    .mini-briefcase-1 {
-        top: 109px;
-        left: 764px;
+    .blog {
+        top: 60px;
+        left: 730px;
     }
-    .mini-briefcase-2 {
+    .mini-briefcase-1 {
         top: 141px;
         left: 90px;
     }
@@ -256,6 +287,10 @@ img {
         top: 400px;
         left: 853px;
     }
+    .my-briefcase {
+      top: 290px;
+      left: 40px;
+    }
     .u-may-look {
         top: 273px;
         left: 288px;
@@ -268,6 +303,10 @@ img {
         top: 298px;
         left: 711px;
     }
+    .my-video {
+      top: 395px;
+      left: 820px;
+    }
     .lino-portrait {
         top: 220px;
         left: 490px;
@@ -278,7 +317,7 @@ img {
     }
     .skype {
         top: 393px;
-        left: 708px;
+        left: 703px;
     }
     .instagram {
         top: 356px;
@@ -295,6 +334,10 @@ img {
     .vk {
         top: 458px;
         left: 220px;
+    }
+    .youtube {
+      top: 426px;
+      left: 703px;
     }
     .logo {
         top: 467px;
