@@ -23,7 +23,7 @@ a:hover, a:focus {
     right: 15px;
 }
 
-.visible-560 {
+.visible-560, .visible-960 {
   display: none;
 }
 
@@ -53,7 +53,6 @@ ul, li {
 }
 
 .row {
-  /*height: 45px;*/
 }
 
 .article-name {
@@ -65,8 +64,6 @@ ul, li {
 }
 
 .box {
-  /*background-image: url(/blog/svg/box.svg);
-  background-size:  30px 30px;*/
   vertical-align: top;
   text-align: center;
   display: inline-block;
@@ -94,6 +91,9 @@ ul, li {
 }
 
 @media all and (min-width: 560px) {
+  .visible-960 {
+    display: none;
+  }
   .header {
     height: 300px;
   }
@@ -152,13 +152,22 @@ ul, li {
 }
 
 @media all and (min-width: 960px) {
+  .visible-960 {
+    display: inline-block;
+  }
+
+  .notepad {
+    position: absolute;
+    left: 730px;
+    top: 35px;
+  }
   .header {
     height: 300px;
   }
 
   .diary {
     left: 90px;
-    top: 100px;
+    top: 90px;
   }
 
   .content {
