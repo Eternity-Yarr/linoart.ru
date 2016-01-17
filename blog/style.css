@@ -1,0 +1,203 @@
+* {
+  font-family: Helvetica, Verdana;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #99AA33;
+}
+
+.content {
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+.visible-560 {
+  display: none;
+}
+
+.blog-banner {
+  position: absolute;
+  top: 130px;
+  width: 300px;
+  display: block;
+}
+.header {
+  height: 250px;
+}
+.illustration {
+  position: absolute;
+  top: 0px;
+}
+
+footer {
+  height: 150px;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.row {
+  /*height: 45px;*/
+}
+
+.article-name {
+  display: inline-block;
+  word-wrap: break-word;
+  height: 40px;
+  width: 200px;
+  line-height: 100%;
+}
+
+.box {
+  /*background-image: url(/blog/svg/box.svg);
+  background-size:  30px 30px;*/
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  height: 30px;
+  width: 60px;
+}
+
+.box i {
+  color: #99AA33;
+  vertical-align: middle;
+  display: block;
+  margin-top: 5px;
+}
+
+.email {
+  position: absolute;
+  bottom: 65px;
+  right: 95px;
+}
+
+.u-may-write {
+  position: absolute;
+  bottom: 65px;
+  right: 65px;
+}
+
+@media all and (min-width: 560px) {
+  .header {
+    height: 300px;
+  }
+
+  .content {
+    width: 560px;
+  }
+
+  .visible-560 {
+    display: block;
+  }
+
+  .illustration {
+    position: absolute;
+    top: 5px;
+    right: 50px;
+  }
+
+  .diary {
+     position: absolute;
+     bottom: 160px;
+     right: 60px;
+  }
+
+  .blog-banner {
+    left: 50px;
+    top: 100px;
+    width: auto;
+  }
+
+  ul, li {
+    margin-left: 35px;
+  }
+  .box {
+    vertical-align: middle;
+  }
+  .article-name {
+    width: 350px;
+  }
+
+  .briefcase {
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+  }
+
+  .u-may-look {
+    position: absolute;
+    bottom: 220px;
+    left: 80px;
+  }
+
+  footer {
+    height: 300px;
+  }
+}
+
+@media all and (min-width: 960px) {
+  .header {
+    height: 300px;
+  }
+
+  .diary {
+    left: 90px;
+    top: 100px;
+  }
+
+  .content {
+    width: 960px;
+  }
+
+  ul, li {
+    margin: 0;
+  }
+
+  footer {
+    height: 10px;
+  }
+
+  .articles {
+    display: inline-block;
+    margin-left: 295px;
+    min-height: 350px;
+    width: 450px;
+  }
+
+  .briefcase {
+    top: 300px;
+  }
+
+  .illustration {
+    top: 270px;
+    right: 20px;
+  }
+
+  .blog-banner {
+    left: 260px;
+    top: 30px;
+    width: auto;
+  }
+
+  .u-may-look {
+    top: 240px;
+    left: 80px;
+  }
+
+}
