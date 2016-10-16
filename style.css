@@ -146,6 +146,10 @@ img {
     top: 1025px;
     left: 17px;
 }
+.apply {
+    left: 20px;
+    top: 25px;
+}
 
 @media all and (min-width: 560px) {
     .visible-900 {
@@ -244,6 +248,10 @@ img {
         top: 855px;
         left: 233px;
     }
+    .apply {
+        left: 270px;
+        top: 75px;
+   }
 }
 @media all and (min-width: 960px) {
     .visible-900 {
@@ -343,4 +351,9 @@ img {
         top: 467px;
         left: 644px;
     }
+    .apply {
+        left: 290px;
+        top: 35px;
+    }
+
 }
